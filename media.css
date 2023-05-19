@@ -17,6 +17,10 @@
         display: none;
     }
 
+    .header__burger {
+        display: block;
+    }
+
     /* main section  */
 
     .main {
@@ -198,6 +202,12 @@
 
     .countries__wrapper {
         height: 390px;
+    }
+
+    .countries::before {
+        font-size: 69.2367px;
+        line-height: 82px;
+        letter-spacing: 0.12em;
     }
 
     .countries__list {
